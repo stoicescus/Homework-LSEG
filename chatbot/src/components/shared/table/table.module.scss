@@ -1,0 +1,24 @@
+@import '../../../styles/variables';
+
+.table {
+    width: 50vw;
+    margin: .5rem 0;
+    padding: 3px;
+    border-radius: 10px 10px 10px 0;
+    background-color: $light-blue;
+
+    .title {
+        padding: 5px;
+    }
+
+    .content > div{
+        margin: 2px 0;
+        padding: .5rem;
+        text-align: center;
+        background-color: #fff;
+
+        &:last-child {
+            border-radius: 0 0 10px 10px;
+        }
+    }
+}

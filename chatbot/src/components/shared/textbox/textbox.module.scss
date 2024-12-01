@@ -1,0 +1,14 @@
+@import '../../../styles/variables';
+
+.textbox {
+    display: inline-block;
+    margin: .5rem 0;
+    padding: 1rem;
+    border-radius: 5px 5px 5px 0;
+    background-color: $light-blue;
+    align-self: flex-end; 
+
+    &:first-child {
+        align-self: flex-start;
+    }
+}

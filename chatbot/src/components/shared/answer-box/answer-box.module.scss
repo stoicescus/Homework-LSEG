@@ -1,0 +1,15 @@
+@import '../../../styles/variables';
+
+.answer-box {
+    display: flex;
+
+    .icon {
+        font-size: 1.2rem;
+        margin: 0 5px 2px 0;
+        align-self: flex-end;
+
+        svg {
+            fill: $blue;
+        }
+    }
+}
